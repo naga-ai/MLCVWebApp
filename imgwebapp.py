@@ -9,7 +9,7 @@ import requests
 from io import BytesIO
 
 st.set_option('deprecation.showfileUploaderEncoding', False)
-st.title("Computer Vision Bean Image Classifier")
+st.title("ML Computer Vision Bean Image Classifier")
 st.text("Provide URL of bean Image for image classification")
 
 @st.cache(allow_output_mutation=True)
